@@ -1,0 +1,7 @@
+export {default as bg1} from './background1.jpg'
+export {default as bg2} from './background2.jpg'
+export {default as bg3} from './background3.jpg'
+export {default as bg4} from './background4.jpg'
+export {default as bg5} from './background5.jpg'
+export {default as bg6} from './background6.jpg'
+export {default as getRYMIcon} from './icons8-morty-smith.svg'

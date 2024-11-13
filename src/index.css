@@ -1,0 +1,80 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100vw;
+}
+
+* { 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+*, *::before, *::after { 
+    box-sizing: border-box; 
+}
+
+html, body {
+    margin: 0;        
+    padding: 0;        
+    height: 100%;
+    width: 100%;       
+    overflow: auto;
+    overflow-x: auto;    
+}
+
+p{
+    text-wrap: pretty;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-wrap: balance;
+}
+
+img, video, svg{
+    height: auto; 
+}
+  
+
+button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input{
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:focus, button:focus-visible { 
+    outline: 4px auto -webkit-focus-ring-color; 
+  }
+  
+  @media (prefers-reduced-motion: reduce)  {
+    *, *::before, *::after { 
+    animation-duration: 0.01ms !important; 
+    animation-iteration-count: 1 !important; 
+    transition-duration: 0.01ms !important; 
+  
+    scroll-behavior: auto !important; 
+    transition: none; 
+    }
+  }
